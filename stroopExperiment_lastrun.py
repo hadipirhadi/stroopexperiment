@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 16:57
+    on January 12, 2021, at 17:20
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -149,7 +149,8 @@ mouse.mouseClock = core.Clock()
 # Initialize components for Routine "feedback"
 feedbackClock = core.Clock()
 #msg variable just needs some value at start
-msg=''
+
+
 feedbackTxt = visual.TextStim(win=win, name='feedbackTxt',
     text='default text',
     font='Arial',
@@ -620,9 +621,9 @@ for thisPractisTrial in practisTrials:
       m=mous[-1]
       m=m.lower()
       if m==t : #stored on last run routine
-        msg="آفرین, زمان=%.3f" % mouse.time[-1]
+        msg='آفرین, زمان=%.3f' % mouse.time[-1]
       else:
-        msg="وای! دقت لطفا!"
+        msg='وای! دقت لطفا!'
     feedbackTxt.setText(msg)
     # keep track of which components have finished
     feedbackComponents = [feedbackTxt]

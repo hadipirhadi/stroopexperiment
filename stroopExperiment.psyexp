@@ -276,10 +276,10 @@
       <CodeComponent name="code">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="#msg variable just needs some value at start&amp;#10;msg=''" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="#msg variable just needs some value at start&amp;#10;&amp;#10;" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="&amp;#10;&amp;#10;ttext=&quot;img&quot;+targetTxt.color&amp;#10;t=ttext&amp;#10;t=t.lower()&amp;#10;if mouse.clicked_name:&amp;#10;  mous=mouse.clicked_name&amp;#10;  m=mous[-1]&amp;#10;  m=m.lower()&amp;#10;  if m==t : #stored on last run routine&amp;#10;    msg=&quot;آفرین, زمان=%.3f&quot; % mouse.time[-1]&amp;#10;  else:&amp;#10;    msg=&quot;وای! دقت لطفا!&quot;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="&amp;#10;&amp;#10;ttext=&quot;img&quot;+targetTxt.color&amp;#10;t=ttext&amp;#10;t=t.lower()&amp;#10;if mouse.clicked_name:&amp;#10;  mous=mouse.clicked_name&amp;#10;  m=mous[-1]&amp;#10;  m=m.lower()&amp;#10;  if m==t : #stored on last run routine&amp;#10;    msg='آفرین, زمان=%.3f' % mouse.time[-1]&amp;#10;  else:&amp;#10;    msg='وای! دقت لطفا!'" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Py" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>

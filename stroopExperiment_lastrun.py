@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 17:30
+    on January 12, 2021, at 19:16
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -28,7 +28,6 @@ import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
 
-msg=''
 
 
 # Ensure that relative paths start from the same directory as this script
@@ -151,7 +150,6 @@ mouse.mouseClock = core.Clock()
 feedbackClock = core.Clock()
 #msg variable just needs some value at start
 
-msg=''
 feedbackTxt = visual.TextStim(win=win, name='feedbackTxt',
     text='default text',
     font='Arial',
@@ -614,6 +612,7 @@ for thisPractisTrial in practisTrials:
     # update component parameters for each repeat
     
     
+    msg='msg'
     ttext='img'+targetTxt.color
     t=ttext
     t=t.lower()

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 16:09
+    on January 12, 2021, at 16:23
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -91,7 +91,7 @@ instrTxt1 = visual.TextStim(win=win, name='instrTxt1',
     depth=0.0);
 imgStart1 = visual.ImageStim(
     win=win,
-    name='imgStart1', units='deg', 
+    name='imgStart1', units='cm', 
     image='Start.jpg', mask=None,
     ori=0, pos=(-1, -10), size=(5, 5),
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -112,7 +112,7 @@ targetTxt = visual.TextStim(win=win, name='targetTxt',
     depth=0.0);
 imgRed = visual.ImageStim(
     win=win,
-    name='imgRed', units='deg', 
+    name='imgRed', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -120,7 +120,7 @@ imgRed = visual.ImageStim(
     texRes=128, interpolate=True, depth=-1.0)
 imgBlue = visual.ImageStim(
     win=win,
-    name='imgBlue', units='deg', 
+    name='imgBlue', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -128,7 +128,7 @@ imgBlue = visual.ImageStim(
     texRes=128, interpolate=True, depth=-2.0)
 imgGreen = visual.ImageStim(
     win=win,
-    name='imgGreen', units='deg', 
+    name='imgGreen', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -136,7 +136,7 @@ imgGreen = visual.ImageStim(
     texRes=128, interpolate=True, depth=-3.0)
 imgYellow = visual.ImageStim(
     win=win,
-    name='imgYellow', units='deg', 
+    name='imgYellow', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -190,7 +190,7 @@ targetTxt = visual.TextStim(win=win, name='targetTxt',
     depth=0.0);
 imgRed = visual.ImageStim(
     win=win,
-    name='imgRed', units='deg', 
+    name='imgRed', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -198,7 +198,7 @@ imgRed = visual.ImageStim(
     texRes=128, interpolate=True, depth=-1.0)
 imgBlue = visual.ImageStim(
     win=win,
-    name='imgBlue', units='deg', 
+    name='imgBlue', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -206,7 +206,7 @@ imgBlue = visual.ImageStim(
     texRes=128, interpolate=True, depth=-2.0)
 imgGreen = visual.ImageStim(
     win=win,
-    name='imgGreen', units='deg', 
+    name='imgGreen', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -214,7 +214,7 @@ imgGreen = visual.ImageStim(
     texRes=128, interpolate=True, depth=-3.0)
 imgYellow = visual.ImageStim(
     win=win,
-    name='imgYellow', units='deg', 
+    name='imgYellow', units='cm', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,

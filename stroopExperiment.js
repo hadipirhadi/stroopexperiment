@@ -70,13 +70,13 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'Blue.jpg', 'path': 'Blue.jpg'},
-    {'name': 'Red.jpg', 'path': 'Red.jpg'},
-    {'name': 'Green.jpg', 'path': 'Green.jpg'},
     {'name': 'conditions.xlsx', 'path': 'conditions.xlsx'},
     {'name': 'practice.xlsx', 'path': 'practice.xlsx'},
-    {'name': 'Yellow.jpg', 'path': 'Yellow.jpg'},
-    {'name': 'Start.jpg', 'path': 'Start.jpg'}
+    {'name': 'Start.jpg', 'path': 'Start.jpg'},
+    {'name': 'Green.jpg', 'path': 'Green.jpg'},
+    {'name': 'Red.jpg', 'path': 'Red.jpg'},
+    {'name': 'Blue.jpg', 'path': 'Blue.jpg'},
+    {'name': 'Yellow.jpg', 'path': 'Yellow.jpg'}
   ]
 });
 
@@ -141,7 +141,7 @@ function experimentInit() {
   
   imgStart1 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgStart1', units : 'deg', 
+    name : 'imgStart1', units : 'cm', 
     image : 'Start.jpg', mask : undefined,
     ori : 0, pos : [(- 1), (- 10)], size : [5, 5],
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -167,7 +167,7 @@ function experimentInit() {
   
   imgRed = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgRed', units : 'deg', 
+    name : 'imgRed', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -176,7 +176,7 @@ function experimentInit() {
   });
   imgBlue = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgBlue', units : 'deg', 
+    name : 'imgBlue', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -185,7 +185,7 @@ function experimentInit() {
   });
   imgGreen = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgGreen', units : 'deg', 
+    name : 'imgGreen', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -194,7 +194,7 @@ function experimentInit() {
   });
   imgYellow = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgYellow', units : 'deg', 
+    name : 'imgYellow', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -259,7 +259,7 @@ function experimentInit() {
   
   imgRed = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgRed', units : 'deg', 
+    name : 'imgRed', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -268,7 +268,7 @@ function experimentInit() {
   });
   imgBlue = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgBlue', units : 'deg', 
+    name : 'imgBlue', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -277,7 +277,7 @@ function experimentInit() {
   });
   imgGreen = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgGreen', units : 'deg', 
+    name : 'imgGreen', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -286,7 +286,7 @@ function experimentInit() {
   });
   imgYellow = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgYellow', units : 'deg', 
+    name : 'imgYellow', units : 'cm', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,

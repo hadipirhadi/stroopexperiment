@@ -81,7 +81,7 @@
         <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="deg" valType="str"/>
+        <Param name="units" updates="None" val="cm" valType="str"/>
       </ImageComponent>
       <ImageComponent name="imgBlue">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
@@ -106,7 +106,7 @@
         <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="deg" valType="str"/>
+        <Param name="units" updates="None" val="cm" valType="str"/>
       </ImageComponent>
       <ImageComponent name="imgGreen">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
@@ -131,7 +131,7 @@
         <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="deg" valType="str"/>
+        <Param name="units" updates="None" val="cm" valType="str"/>
       </ImageComponent>
       <ImageComponent name="imgYellow">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
@@ -156,7 +156,7 @@
         <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="deg" valType="str"/>
+        <Param name="units" updates="None" val="cm" valType="str"/>
       </ImageComponent>
       <MouseComponent name="mouse">
         <Param name="clickable" updates="constant" val="imgRed, imgBlue, imgGreen, imgYellow" valType="code"/>
@@ -363,7 +363,7 @@
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="deg" valType="str"/>
+        <Param name="units" updates="None" val="cm" valType="str"/>
       </ImageComponent>
       <MouseComponent name="resBegin1">
         <Param name="clickable" updates="constant" val="imgStart" valType="code"/>

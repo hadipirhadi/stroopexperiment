@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 19:44
+    on January 12, 2021, at 19:50
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -626,7 +626,7 @@ for thisPractisTrial in practisTrials:
         msg='آفرین, زمان=%.3f' % mouse.time[-1]
       else:
         msg='وای! دقت لطفا!'
-    feedbackTxt.setText('msg')
+    feedbackTxt.setText(msg)
     # keep track of which components have finished
     feedbackComponents = [feedbackTxt]
     for thisComponent in feedbackComponents:

@@ -310,7 +310,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="1.5" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="set every repeat" val="msg" valType="extendedStr"/>
+        <Param name="text" updates="set every repeat" val="$msg" valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>

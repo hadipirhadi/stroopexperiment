@@ -781,7 +781,7 @@ function feedbackRoutineBegin(snapshot) {
     continueRoutine = true; // until we're told otherwise
     routineTimer.add(1.500000);
     // update component parameters for each repeat
-    feedbackTxt.setText(msg);
+    feedbackTxt.setText('msg');
     // keep track of which components have finished
     feedbackComponents = [];
     feedbackComponents.push(feedbackTxt);

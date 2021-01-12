@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 19:16
+    on January 12, 2021, at 19:44
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -150,6 +150,8 @@ mouse.mouseClock = core.Clock()
 feedbackClock = core.Clock()
 #msg variable just needs some value at start
 
+expClock = core.Clock()
+msg = "Thanks for participating - that took %.2f minutes in total" %(expClock.getTime()/60.0)
 feedbackTxt = visual.TextStim(win=win, name='feedbackTxt',
     text='default text',
     font='Arial',
@@ -363,7 +365,7 @@ thisExp.nextEntry()
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-practisTrials = data.TrialHandler(nReps=1, method='random', 
+practisTrials = data.TrialHandler(nReps=2, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('practice.xlsx'),
     seed=None, name='practisTrials')
@@ -608,7 +610,7 @@ for thisPractisTrial in practisTrials:
     
     # ------Prepare to start Routine "feedback"-------
     continueRoutine = True
-    routineTimer.add(1.000000)
+    routineTimer.add(1.500000)
     # update component parameters for each repeat
     
     
@@ -624,7 +626,7 @@ for thisPractisTrial in practisTrials:
         msg='آفرین, زمان=%.3f' % mouse.time[-1]
       else:
         msg='وای! دقت لطفا!'
-    feedbackTxt.setText(msg)
+    feedbackTxt.setText('msg')
     # keep track of which components have finished
     feedbackComponents = [feedbackTxt]
     for thisComponent in feedbackComponents:
@@ -659,7 +661,7 @@ for thisPractisTrial in practisTrials:
             feedbackTxt.setAutoDraw(True)
         if feedbackTxt.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > feedbackTxt.tStartRefresh + 1.0-frameTolerance:
+            if tThisFlipGlobal > feedbackTxt.tStartRefresh + 1.5-frameTolerance:
                 # keep track of stop time/frame for later
                 feedbackTxt.tStop = t  # not accounting for scr refresh
                 feedbackTxt.frameNStop = frameN  # exact frame index
@@ -691,7 +693,7 @@ for thisPractisTrial in practisTrials:
     practisTrials.addData('feedbackTxt.stopped', feedbackTxt.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'practisTrials'
+# completed 2 repeats of 'practisTrials'
 
 # get names of stimulus parameters
 if practisTrials.trialList in ([], [None], None):

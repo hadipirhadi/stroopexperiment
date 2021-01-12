@@ -276,11 +276,11 @@
       <CodeComponent name="code">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="#msg variable just needs some value at start&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="#msg variable just needs some value at start&amp;#10;&amp;#10;expClock = core.Clock()&amp;#10;msg = &quot;Thanks for participating - that took %.2f minutes in total&quot; %(expClock.getTime()/60.0)" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="&amp;#10;&amp;#10;msg='msg'&amp;#10;ttext='img'+targetTxt.color&amp;#10;t=ttext&amp;#10;t=t.lower()&amp;#10;if mouse.clicked_name:&amp;#10;  mous=mouse.clicked_name&amp;#10;  m=mous[-1]&amp;#10;  m=m.lower()&amp;#10;  if m==t : #stored on last run routine&amp;#10;    msg='آفرین, زمان=%.3f' % mouse.time[-1]&amp;#10;  else:&amp;#10;    msg='وای! دقت لطفا!'" valType="extendedCode"/>
-        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Code Type" updates="None" val="Both" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
@@ -308,9 +308,9 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="1.5" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="set every repeat" val="$msg" valType="extendedStr"/>
+        <Param name="text" updates="set every repeat" val="msg" valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -394,7 +394,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="nReps" updates="None" val="2" valType="code"/>
       <Param name="name" updates="None" val="practisTrials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>

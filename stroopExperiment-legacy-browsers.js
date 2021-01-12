@@ -469,7 +469,7 @@ function practisTrialsLoopBegin(practisTrialsLoopScheduler) {
   // set up handler to look after randomisation of conditions etc
   practisTrials = new TrialHandler({
     psychoJS: psychoJS,
-    nReps: 1, method: TrialHandler.Method.RANDOM,
+    nReps: 2, method: TrialHandler.Method.RANDOM,
     extraInfo: expInfo, originPath: undefined,
     trialList: 'practice.xlsx',
     seed: undefined, name: 'practisTrials'

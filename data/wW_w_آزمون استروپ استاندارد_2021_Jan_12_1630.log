@@ -1,0 +1,103 @@
+0.7159 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+15.5301 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+16.5305 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D67669C5F8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D6766EAE10>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.5310 	EXP 	window1: mouseVisible = True
+16.5310 	EXP 	window1: recordFrameIntervals = False
+16.6964 	EXP 	window1: recordFrameIntervals = True
+16.8809 	EXP 	window1: recordFrameIntervals = False
+17.1487 	EXP 	Created instrTxt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='Arabic', name='instrTxt1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.1521 	EXP 	Created imgStart1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Start.jpg', interpolate=True, mask=None, maskParams=None, name='imgStart1', opacity=1.0, ori=0.0, pos=array([ -1., -10.]), size=array([50., 50.]), texRes=128, units='pix', win=Window(...))
+17.1522 	EXP 	window1: mouseVisible = True
+17.1822 	EXP 	Created targetTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='targetTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+17.1839 	EXP 	Created imgRed = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgRed', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.1855 	EXP 	Created imgBlue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgBlue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.1870 	EXP 	Created imgGreen = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgGreen', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.1885 	EXP 	Created imgYellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgYellow', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.1886 	EXP 	window1: mouseVisible = True
+17.1952 	EXP 	Created feedbackTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='feedbackTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+17.2240 	EXP 	Created instrTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='Arabic', name='instrTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.2260 	EXP 	Created imgStart = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Start.jpg', interpolate=True, mask=None, maskParams=None, name='imgStart', opacity=1.0, ori=0.0, pos=array([-1., -9.]), size=array([50., 50.]), texRes=128, units='pix', win=Window(...))
+17.2261 	EXP 	window1: mouseVisible = True
+17.2316 	EXP 	Created targetTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='targetTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+17.2332 	EXP 	Created imgRed = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgRed', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.2347 	EXP 	Created imgBlue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgBlue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.2361 	EXP 	Created imgGreen = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgGreen', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.2377 	EXP 	Created imgYellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgYellow', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='pix', win=Window(...))
+17.2378 	EXP 	window1: mouseVisible = True
+17.2725 	EXP 	Created thanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='thanksText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ﻥﻮﻣﺯﺁ ﻥﺎﯾﺎﭘ\n\n!ﻢﯾﺭﺍﺰﮕﺳﺎﭙﺳ ﺭﺎﯿﺴﺑ ﺎﻤﺷ ﺯﺍ', units='height', win=Window(...), wrapWidth=1)
+17.3128 	EXP 	instrTxt1: autoDraw = True
+17.3128 	EXP 	imgStart1: autoDraw = True
+18.8803 	DATA 	Mouse: Left button down, pos=(961,525)
+18.9205 	EXP 	Imported practice.xlsx as conditions, 8 conditions, 4 params
+18.9211 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+18.9217 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'سبز'), ('colour', 'green'), ('congruent', 1), ('corrAns', 'imgGreen')])
+18.9625 	EXP 	instrTxt1: autoDraw = False
+18.9625 	EXP 	imgStart1: autoDraw = False
+18.9625 	EXP 	targetTxt: color = 'green (named)'
+18.9625 	EXP 	targetTxt: text = 'سبز'
+18.9625 	EXP 	imgRed: opacity = 1.0
+18.9625 	EXP 	imgRed: pos = array([-1., -5.])
+18.9625 	EXP 	imgRed: size = array([0.6, 0.6])
+18.9625 	EXP 	imgRed: ori = 0.0
+18.9625 	EXP 	imgRed: image = 'Red.jpg'
+18.9625 	EXP 	imgBlue: opacity = 1.0
+18.9625 	EXP 	imgBlue: pos = array([ 0., -5.])
+18.9625 	EXP 	imgBlue: size = array([0.6, 0.6])
+18.9625 	EXP 	imgBlue: ori = 1.0
+18.9625 	EXP 	imgBlue: image = 'Blue.jpg'
+18.9625 	EXP 	imgGreen: opacity = 1.0
+18.9625 	EXP 	imgGreen: pos = array([ 1., -5.])
+18.9625 	EXP 	imgGreen: size = array([0.6, 0.6])
+18.9625 	EXP 	imgGreen: ori = 2.0
+18.9625 	EXP 	imgGreen: image = 'Green.jpg'
+18.9625 	EXP 	imgYellow: opacity = 1.0
+18.9625 	EXP 	imgYellow: pos = array([ 2., -5.])
+18.9625 	EXP 	imgYellow: size = array([0.6, 0.6])
+18.9625 	EXP 	imgYellow: ori = 3.0
+18.9625 	EXP 	imgYellow: image = 'Yellow.jpg'
+18.9625 	EXP 	targetTxt: autoDraw = True
+18.9625 	EXP 	imgRed: autoDraw = True
+18.9625 	EXP 	imgBlue: autoDraw = True
+18.9625 	EXP 	imgGreen: autoDraw = True
+18.9625 	EXP 	imgYellow: autoDraw = True
+19.0305 	DATA 	Mouse:  Left button up, pos=(962,525)
+20.1300 	DATA 	Mouse: Left button down, pos=(959,515)
+20.2635 	DATA 	Mouse:  Left button up, pos=(959,515)
+20.9122 	EXP 	targetTxt: autoDraw = False
+20.9122 	EXP 	imgRed: autoDraw = False
+20.9122 	EXP 	imgBlue: autoDraw = False
+20.9122 	EXP 	imgGreen: autoDraw = False
+20.9122 	EXP 	imgYellow: autoDraw = False
+20.9122 	EXP 	feedbackTxt: text = ''
+20.9122 	EXP 	feedbackTxt: autoDraw = True
+21.8965 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'قرمز'), ('colour', 'red'), ('congruent', 1), ('corrAns', 'imgRed')])
+21.9459 	EXP 	feedbackTxt: autoDraw = False
+21.9459 	EXP 	targetTxt: color = 'red (named)'
+21.9459 	EXP 	targetTxt: text = 'قرمز'
+21.9459 	EXP 	imgRed: opacity = 1.0
+21.9459 	EXP 	imgRed: pos = array([-1., -5.])
+21.9459 	EXP 	imgRed: size = array([0.6, 0.6])
+21.9459 	EXP 	imgRed: ori = 0.0
+21.9459 	EXP 	imgRed: image = 'Red.jpg'
+21.9459 	EXP 	imgBlue: opacity = 1.0
+21.9459 	EXP 	imgBlue: pos = array([ 0., -5.])
+21.9459 	EXP 	imgBlue: size = array([0.6, 0.6])
+21.9459 	EXP 	imgBlue: ori = 1.0
+21.9459 	EXP 	imgBlue: image = 'Blue.jpg'
+21.9459 	EXP 	imgGreen: opacity = 1.0
+21.9459 	EXP 	imgGreen: pos = array([ 1., -5.])
+21.9459 	EXP 	imgGreen: size = array([0.6, 0.6])
+21.9459 	EXP 	imgGreen: ori = 2.0
+21.9459 	EXP 	imgGreen: image = 'Green.jpg'
+21.9459 	EXP 	imgYellow: opacity = 1.0
+21.9459 	EXP 	imgYellow: pos = array([ 2., -5.])
+21.9459 	EXP 	imgYellow: size = array([0.6, 0.6])
+21.9459 	EXP 	imgYellow: ori = 3.0
+21.9459 	EXP 	imgYellow: image = 'Yellow.jpg'
+21.9459 	EXP 	targetTxt: autoDraw = True
+21.9459 	EXP 	imgRed: autoDraw = True
+21.9459 	EXP 	imgBlue: autoDraw = True
+21.9459 	EXP 	imgGreen: autoDraw = True
+21.9459 	EXP 	imgYellow: autoDraw = True
+22.3663 	DATA 	Keypress: escape
+22.6365 	EXP 	window1: mouseVisible = True

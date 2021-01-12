@@ -130,9 +130,9 @@ function experimentInit() {
   
   imgStart1 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgStart1', units : 'cm', 
+    name : 'imgStart1', units : 'pix', 
     image : 'Start.jpg', mask : undefined,
-    ori : 0, pos : [(- 1), (- 10)], size : [5, 5],
+    ori : 0, pos : [0, (- 310)], size : [125, 125],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -1.0 
@@ -156,7 +156,7 @@ function experimentInit() {
   
   imgRed = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgRed', units : 'cm', 
+    name : 'imgRed', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -165,7 +165,7 @@ function experimentInit() {
   });
   imgBlue = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgBlue', units : 'cm', 
+    name : 'imgBlue', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -174,7 +174,7 @@ function experimentInit() {
   });
   imgGreen = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgGreen', units : 'cm', 
+    name : 'imgGreen', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -183,7 +183,7 @@ function experimentInit() {
   });
   imgYellow = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgYellow', units : 'cm', 
+    name : 'imgYellow', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -222,9 +222,9 @@ function experimentInit() {
   
   imgStart = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgStart', units : 'deg', 
+    name : 'imgStart', units : 'pix', 
     image : 'Start.jpg', mask : undefined,
-    ori : 0, pos : [(- 1), (- 9)], size : [5, 5],
+    ori : 0, pos : [0, (- 310)], size : [125, 125],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -1.0 
@@ -248,7 +248,7 @@ function experimentInit() {
   
   imgRed = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgRed', units : 'cm', 
+    name : 'imgRed', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -257,7 +257,7 @@ function experimentInit() {
   });
   imgBlue = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgBlue', units : 'cm', 
+    name : 'imgBlue', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -266,7 +266,7 @@ function experimentInit() {
   });
   imgGreen = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgGreen', units : 'cm', 
+    name : 'imgGreen', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -275,7 +275,7 @@ function experimentInit() {
   });
   imgYellow = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'imgYellow', units : 'cm', 
+    name : 'imgYellow', units : 'pix', 
     image : undefined, mask : undefined,
     ori : 1.0, pos : [0, 0], size : 1.0,
     color : new util.Color([1, 1, 1]), opacity : 1.0,
@@ -550,23 +550,23 @@ function trialRoutineBegin(snapshot) {
     targetTxt.setColor(new util.Color(colour));
     targetTxt.setText(word);
     imgRed.setOpacity(1);
-    imgRed.setPos([(- 1), (- 5)]);
-    imgRed.setSize([0.6, 0.6]);
+    imgRed.setPos([(- 250), (- 200)]);
+    imgRed.setSize([125, 125]);
     imgRed.setOri(0);
     imgRed.setImage('Red.jpg');
     imgBlue.setOpacity(1);
-    imgBlue.setPos([0, (- 5)]);
-    imgBlue.setSize([0.6, 0.6]);
+    imgBlue.setPos([(- 100), (- 200)]);
+    imgBlue.setSize([125, 125]);
     imgBlue.setOri(1);
     imgBlue.setImage('Blue.jpg');
     imgGreen.setOpacity(1);
-    imgGreen.setPos([1, (- 5)]);
-    imgGreen.setSize([0.6, 0.6]);
+    imgGreen.setPos([50, (- 200)]);
+    imgGreen.setSize([125, 125]);
     imgGreen.setOri(2);
     imgGreen.setImage('Green.jpg');
     imgYellow.setOpacity(1);
-    imgYellow.setPos([2, (- 5)]);
-    imgYellow.setSize([0.6, 0.6]);
+    imgYellow.setPos([200, (- 200)]);
+    imgYellow.setSize([125, 125]);
     imgYellow.setOri(3);
     imgYellow.setImage('Yellow.jpg');
     // setup some python lists for storing info about the mouse

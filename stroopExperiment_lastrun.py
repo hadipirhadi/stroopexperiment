@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 16:23
+    on January 12, 2021, at 16:57
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -91,9 +91,9 @@ instrTxt1 = visual.TextStim(win=win, name='instrTxt1',
     depth=0.0);
 imgStart1 = visual.ImageStim(
     win=win,
-    name='imgStart1', units='cm', 
+    name='imgStart1', units='pix', 
     image='Start.jpg', mask=None,
-    ori=0, pos=(-1, -10), size=(5, 5),
+    ori=0, pos=[0, -310], size=[125, 125],
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-1.0)
@@ -112,7 +112,7 @@ targetTxt = visual.TextStim(win=win, name='targetTxt',
     depth=0.0);
 imgRed = visual.ImageStim(
     win=win,
-    name='imgRed', units='cm', 
+    name='imgRed', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -120,7 +120,7 @@ imgRed = visual.ImageStim(
     texRes=128, interpolate=True, depth=-1.0)
 imgBlue = visual.ImageStim(
     win=win,
-    name='imgBlue', units='cm', 
+    name='imgBlue', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -128,7 +128,7 @@ imgBlue = visual.ImageStim(
     texRes=128, interpolate=True, depth=-2.0)
 imgGreen = visual.ImageStim(
     win=win,
-    name='imgGreen', units='cm', 
+    name='imgGreen', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -136,7 +136,7 @@ imgGreen = visual.ImageStim(
     texRes=128, interpolate=True, depth=-3.0)
 imgYellow = visual.ImageStim(
     win=win,
-    name='imgYellow', units='cm', 
+    name='imgYellow', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -169,9 +169,9 @@ instrTxt = visual.TextStim(win=win, name='instrTxt',
     depth=0.0);
 imgStart = visual.ImageStim(
     win=win,
-    name='imgStart', units='deg', 
+    name='imgStart', units='pix', 
     image='Start.jpg', mask=None,
-    ori=0, pos=(-1, -9), size=(5, 5),
+    ori=0, pos=[0, -310], size=[125, 125],
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-1.0)
@@ -190,7 +190,7 @@ targetTxt = visual.TextStim(win=win, name='targetTxt',
     depth=0.0);
 imgRed = visual.ImageStim(
     win=win,
-    name='imgRed', units='cm', 
+    name='imgRed', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -198,7 +198,7 @@ imgRed = visual.ImageStim(
     texRes=128, interpolate=True, depth=-1.0)
 imgBlue = visual.ImageStim(
     win=win,
-    name='imgBlue', units='cm', 
+    name='imgBlue', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -206,7 +206,7 @@ imgBlue = visual.ImageStim(
     texRes=128, interpolate=True, depth=-2.0)
 imgGreen = visual.ImageStim(
     win=win,
-    name='imgGreen', units='cm', 
+    name='imgGreen', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -214,7 +214,7 @@ imgGreen = visual.ImageStim(
     texRes=128, interpolate=True, depth=-3.0)
 imgYellow = visual.ImageStim(
     win=win,
-    name='imgYellow', units='cm', 
+    name='imgYellow', units='pix', 
     image='sin', mask=None,
     ori=1.0, pos=[0,0], size=1.0,
     color=[1,1,1], colorSpace='rgb', opacity=1.0,
@@ -388,23 +388,23 @@ for thisPractisTrial in practisTrials:
     targetTxt.setColor(colour, colorSpace='rgb')
     targetTxt.setText(word)
     imgRed.setOpacity(1)
-    imgRed.setPos((-1, -5))
-    imgRed.setSize((0.6, 0.6))
+    imgRed.setPos((-250, -200))
+    imgRed.setSize([125, 125])
     imgRed.setOri(0)
     imgRed.setImage('Red.jpg')
     imgBlue.setOpacity(1)
-    imgBlue.setPos((0, -5))
-    imgBlue.setSize((0.6, 0.6))
+    imgBlue.setPos((-100, -200))
+    imgBlue.setSize([125, 125])
     imgBlue.setOri(1)
     imgBlue.setImage('Blue.jpg')
     imgGreen.setOpacity(1)
-    imgGreen.setPos((1, -5))
-    imgGreen.setSize((0.6, 0.6))
+    imgGreen.setPos((50, -200))
+    imgGreen.setSize([125, 125])
     imgGreen.setOri(2)
     imgGreen.setImage('Green.jpg')
     imgYellow.setOpacity(1)
-    imgYellow.setPos((2, -5))
-    imgYellow.setSize((0.6, 0.6))
+    imgYellow.setPos((200, -200))
+    imgYellow.setSize([125, 125])
     imgYellow.setOri(3)
     imgYellow.setImage('Yellow.jpg')
     # setup some python lists for storing info about the mouse
@@ -855,23 +855,23 @@ for thisTrial in trials:
     targetTxt.setColor(colour, colorSpace='rgb')
     targetTxt.setText(word)
     imgRed.setOpacity(1)
-    imgRed.setPos((-1, -5))
-    imgRed.setSize((0.6, 0.6))
+    imgRed.setPos((-250, -200))
+    imgRed.setSize([125, 125])
     imgRed.setOri(0)
     imgRed.setImage('Red.jpg')
     imgBlue.setOpacity(1)
-    imgBlue.setPos((0, -5))
-    imgBlue.setSize((0.6, 0.6))
+    imgBlue.setPos((-100, -200))
+    imgBlue.setSize([125, 125])
     imgBlue.setOri(1)
     imgBlue.setImage('Blue.jpg')
     imgGreen.setOpacity(1)
-    imgGreen.setPos((1, -5))
-    imgGreen.setSize((0.6, 0.6))
+    imgGreen.setPos((50, -200))
+    imgGreen.setSize([125, 125])
     imgGreen.setOri(2)
     imgGreen.setImage('Green.jpg')
     imgYellow.setOpacity(1)
-    imgYellow.setPos((2, -5))
-    imgYellow.setSize((0.6, 0.6))
+    imgYellow.setPos((200, -200))
+    imgYellow.setSize([125, 125])
     imgYellow.setOri(3)
     imgYellow.setImage('Yellow.jpg')
     # setup some python lists for storing info about the mouse

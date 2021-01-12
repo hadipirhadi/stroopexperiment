@@ -772,7 +772,7 @@ function feedbackRoutineBegin(snapshot) {
     feedbackClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(1.000000);
+    routineTimer.add(1.500000);
     // update component parameters for each repeat
     feedbackTxt.setText(msg);
     // keep track of which components have finished
@@ -805,7 +805,7 @@ function feedbackRoutineEachFrame(snapshot) {
       feedbackTxt.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 1.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if ((feedbackTxt.status === PsychoJS.Status.STARTED || feedbackTxt.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       feedbackTxt.setAutoDraw(false);
     }

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 19:56
+    on January 12, 2021, at 20:21
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -106,7 +106,7 @@ trialClock = core.Clock()
 targetTxt = visual.TextStim(win=win, name='targetTxt',
     text='default text',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=[0,2], height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='Arabic',
     depth=0.0);
@@ -310,23 +310,23 @@ for thisTrial in trials:
     targetTxt.setColor(colour, colorSpace='rgb')
     targetTxt.setText(word)
     imgRed.setOpacity(1)
-    imgRed.setPos((-250, -200))
-    imgRed.setSize([125, 125])
+    imgRed.setPos((-250, -150))
+    imgRed.setSize([100, 100])
     imgRed.setOri(0)
     imgRed.setImage('Red.jpg')
     imgBlue.setOpacity(1)
-    imgBlue.setPos((-100, -200))
-    imgBlue.setSize([125, 125])
+    imgBlue.setPos((-100, -150))
+    imgBlue.setSize([100, 100])
     imgBlue.setOri(1)
     imgBlue.setImage('Blue.jpg')
     imgGreen.setOpacity(1)
-    imgGreen.setPos((50, -200))
-    imgGreen.setSize([125, 125])
+    imgGreen.setPos((50, -150))
+    imgGreen.setSize([100, 100])
     imgGreen.setOri(2)
     imgGreen.setImage('Green.jpg')
     imgYellow.setOpacity(1)
-    imgYellow.setPos((200, -200))
-    imgYellow.setSize([125, 125])
+    imgYellow.setPos((200, -150))
+    imgYellow.setSize([100, 100])
     imgYellow.setOri(3)
     imgYellow.setImage('Yellow.jpg')
     # setup some python lists for storing info about the mouse

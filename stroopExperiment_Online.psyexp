@@ -46,7 +46,7 @@
         <Param name="name" updates="None" val="targetTxt" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="pos" updates="constant" val="[0,2]" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
@@ -71,9 +71,9 @@
         <Param name="name" updates="None" val="imgRed" valType="code"/>
         <Param name="opacity" updates="set every repeat" val="1" valType="code"/>
         <Param name="ori" updates="set every repeat" val="0" valType="code"/>
-        <Param name="pos" updates="set every repeat" val="(-250, -200)" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(-250, -150)" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="size" updates="set every repeat" val="[125, 125]" valType="code"/>
+        <Param name="size" updates="set every repeat" val="[100, 100]" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
@@ -96,9 +96,9 @@
         <Param name="name" updates="None" val="imgBlue" valType="code"/>
         <Param name="opacity" updates="set every repeat" val="1" valType="code"/>
         <Param name="ori" updates="set every repeat" val="1" valType="code"/>
-        <Param name="pos" updates="set every repeat" val="(-100, -200)" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(-100, -150)" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="size" updates="set every repeat" val="[125, 125]" valType="code"/>
+        <Param name="size" updates="set every repeat" val="[100, 100]" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
@@ -121,9 +121,9 @@
         <Param name="name" updates="None" val="imgGreen" valType="code"/>
         <Param name="opacity" updates="set every repeat" val="1" valType="code"/>
         <Param name="ori" updates="set every repeat" val="2" valType="code"/>
-        <Param name="pos" updates="set every repeat" val="(50, -200)" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(50, -150)" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="size" updates="set every repeat" val="[125, 125]" valType="code"/>
+        <Param name="size" updates="set every repeat" val="[100, 100]" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
@@ -146,9 +146,9 @@
         <Param name="name" updates="None" val="imgYellow" valType="code"/>
         <Param name="opacity" updates="set every repeat" val="1" valType="code"/>
         <Param name="ori" updates="set every repeat" val="3" valType="code"/>
-        <Param name="pos" updates="set every repeat" val="(200, -200)" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(200, -150)" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="size" updates="set every repeat" val="[125, 125]" valType="code"/>
+        <Param name="size" updates="set every repeat" val="[100, 100]" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>

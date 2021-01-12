@@ -1,0 +1,337 @@
+0.6283 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+15.0784 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+16.1201 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022473ACC470>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022473B19C88>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.1206 	EXP 	window1: mouseVisible = True
+16.1207 	EXP 	window1: recordFrameIntervals = False
+16.2857 	EXP 	window1: recordFrameIntervals = True
+16.4690 	EXP 	window1: recordFrameIntervals = False
+16.7626 	EXP 	Created instrTxt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='Arabic', name='instrTxt1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.7653 	EXP 	Created imgStart1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Start.jpg', interpolate=True, mask=None, maskParams=None, name='imgStart1', opacity=1.0, ori=0.0, pos=array([-1., -9.]), size=array([5., 5.]), texRes=128, units='deg', win=Window(...))
+16.7654 	EXP 	window1: mouseVisible = True
+16.7932 	EXP 	Created targetTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='targetTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+16.7948 	EXP 	Created imgRed = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgRed', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.7963 	EXP 	Created imgBlue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgBlue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.7977 	EXP 	Created imgGreen = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgGreen', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.7991 	EXP 	Created imgYellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgYellow', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.7992 	EXP 	window1: mouseVisible = True
+16.8049 	EXP 	Created feedbackTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='feedbackTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+16.8296 	EXP 	Created instrTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='Arabic', name='instrTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.8316 	EXP 	Created imgStart = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Start.jpg', interpolate=True, mask=None, maskParams=None, name='imgStart', opacity=1.0, ori=0.0, pos=array([-1., -9.]), size=array([5., 5.]), texRes=128, units='deg', win=Window(...))
+16.8317 	EXP 	window1: mouseVisible = True
+16.8372 	EXP 	Created targetTxt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='targetTxt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+16.8394 	EXP 	Created imgRed = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgRed', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.8413 	EXP 	Created imgBlue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgBlue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.8426 	EXP 	Created imgGreen = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgGreen', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.8443 	EXP 	Created imgYellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imgYellow', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='deg', win=Window(...))
+16.8445 	EXP 	window1: mouseVisible = True
+16.8818 	EXP 	Created thanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='Arabic', name='thanksText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ﻥﻮﻣﺯﺁ ﻥﺎﯾﺎﭘ\n\n!ﻢﯾﺭﺍﺰﮕﺳﺎﭙﺳ ﺭﺎﯿﺴﺑ ﺎﻤﺷ ﺯﺍ', units='height', win=Window(...), wrapWidth=1)
+16.9349 	EXP 	instrTxt1: autoDraw = True
+16.9349 	EXP 	imgStart1: autoDraw = True
+17.9857 	DATA 	Mouse: Left button down, pos=(944,235)
+18.0260 	EXP 	Imported practice.xlsx as conditions, 8 conditions, 4 params
+18.0266 	EXP 	Created sequence: random, trialTypes=8, nReps=1, seed=None
+18.0272 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'سبز'), ('colour', 'green'), ('congruent', 1), ('corrAns', 'imgGreen')])
+18.0680 	EXP 	instrTxt1: autoDraw = False
+18.0680 	EXP 	imgStart1: autoDraw = False
+18.0680 	EXP 	targetTxt: color = 'green (named)'
+18.0680 	EXP 	targetTxt: text = 'سبز'
+18.0680 	EXP 	imgRed: opacity = 1.0
+18.0680 	EXP 	imgRed: pos = array([-1., -5.])
+18.0680 	EXP 	imgRed: size = array([0.6, 0.6])
+18.0680 	EXP 	imgRed: ori = 0.0
+18.0680 	EXP 	imgRed: image = 'Red.jpg'
+18.0680 	EXP 	imgBlue: opacity = 1.0
+18.0680 	EXP 	imgBlue: pos = array([ 0., -5.])
+18.0680 	EXP 	imgBlue: size = array([0.6, 0.6])
+18.0680 	EXP 	imgBlue: ori = 1.0
+18.0680 	EXP 	imgBlue: image = 'Blue.jpg'
+18.0680 	EXP 	imgGreen: opacity = 1.0
+18.0680 	EXP 	imgGreen: pos = array([ 1., -5.])
+18.0680 	EXP 	imgGreen: size = array([0.6, 0.6])
+18.0680 	EXP 	imgGreen: ori = 2.0
+18.0680 	EXP 	imgGreen: image = 'Green.jpg'
+18.0680 	EXP 	imgYellow: opacity = 1.0
+18.0680 	EXP 	imgYellow: pos = array([ 2., -5.])
+18.0680 	EXP 	imgYellow: size = array([0.6, 0.6])
+18.0680 	EXP 	imgYellow: ori = 3.0
+18.0680 	EXP 	imgYellow: image = 'Yellow.jpg'
+18.0680 	EXP 	targetTxt: autoDraw = True
+18.0680 	EXP 	imgRed: autoDraw = True
+18.0680 	EXP 	imgBlue: autoDraw = True
+18.0680 	EXP 	imgGreen: autoDraw = True
+18.0680 	EXP 	imgYellow: autoDraw = True
+18.1356 	DATA 	Mouse:  Left button up, pos=(944,235)
+18.8862 	DATA 	Mouse: Left button down, pos=(1027,374)
+18.9520 	EXP 	targetTxt: autoDraw = False
+18.9520 	EXP 	imgRed: autoDraw = False
+18.9520 	EXP 	imgBlue: autoDraw = False
+18.9520 	EXP 	imgGreen: autoDraw = False
+18.9520 	EXP 	imgYellow: autoDraw = False
+18.9520 	EXP 	feedbackTxt: text = 'Oops! That was wrong!'
+18.9520 	EXP 	feedbackTxt: autoDraw = True
+19.0047 	DATA 	Mouse:  Left button up, pos=(1027,374)
+19.9384 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'زرد'), ('colour', 'green'), ('congruent', 0), ('corrAns', 'imgGreen')])
+19.9850 	EXP 	feedbackTxt: autoDraw = False
+19.9850 	EXP 	feedbackTxt: autoDraw = False
+19.9850 	EXP 	targetTxt: color = 'green (named)'
+19.9850 	EXP 	targetTxt: text = 'زرد'
+19.9850 	EXP 	imgRed: opacity = 1.0
+19.9850 	EXP 	imgRed: pos = array([-1., -5.])
+19.9850 	EXP 	imgRed: size = array([0.6, 0.6])
+19.9850 	EXP 	imgRed: ori = 0.0
+19.9850 	EXP 	imgRed: image = 'Red.jpg'
+19.9850 	EXP 	imgBlue: opacity = 1.0
+19.9850 	EXP 	imgBlue: pos = array([ 0., -5.])
+19.9850 	EXP 	imgBlue: size = array([0.6, 0.6])
+19.9850 	EXP 	imgBlue: ori = 1.0
+19.9850 	EXP 	imgBlue: image = 'Blue.jpg'
+19.9850 	EXP 	imgGreen: opacity = 1.0
+19.9850 	EXP 	imgGreen: pos = array([ 1., -5.])
+19.9850 	EXP 	imgGreen: size = array([0.6, 0.6])
+19.9850 	EXP 	imgGreen: ori = 2.0
+19.9850 	EXP 	imgGreen: image = 'Green.jpg'
+19.9850 	EXP 	imgYellow: opacity = 1.0
+19.9850 	EXP 	imgYellow: pos = array([ 2., -5.])
+19.9850 	EXP 	imgYellow: size = array([0.6, 0.6])
+19.9850 	EXP 	imgYellow: ori = 3.0
+19.9850 	EXP 	imgYellow: image = 'Yellow.jpg'
+19.9850 	EXP 	targetTxt: autoDraw = True
+19.9850 	EXP 	imgRed: autoDraw = True
+19.9850 	EXP 	imgBlue: autoDraw = True
+19.9850 	EXP 	imgGreen: autoDraw = True
+19.9850 	EXP 	imgYellow: autoDraw = True
+21.0356 	DATA 	Mouse: Left button down, pos=(1003,367)
+21.1009 	EXP 	targetTxt: autoDraw = False
+21.1009 	EXP 	imgRed: autoDraw = False
+21.1009 	EXP 	imgBlue: autoDraw = False
+21.1009 	EXP 	imgGreen: autoDraw = False
+21.1009 	EXP 	imgYellow: autoDraw = False
+21.1009 	EXP 	feedbackTxt: text = 'Correct, MousRT=1.075801'
+21.1009 	EXP 	feedbackTxt: autoDraw = True
+21.2051 	DATA 	Mouse:  Left button up, pos=(1003,367)
+22.0873 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'آبی'), ('colour', 'red'), ('congruent', 0), ('corrAns', 'imgRed')])
+22.1352 	EXP 	feedbackTxt: autoDraw = False
+22.1352 	EXP 	feedbackTxt: autoDraw = False
+22.1352 	EXP 	targetTxt: color = 'red (named)'
+22.1352 	EXP 	targetTxt: text = 'آبی'
+22.1352 	EXP 	imgRed: opacity = 1.0
+22.1352 	EXP 	imgRed: pos = array([-1., -5.])
+22.1352 	EXP 	imgRed: size = array([0.6, 0.6])
+22.1352 	EXP 	imgRed: ori = 0.0
+22.1352 	EXP 	imgRed: image = 'Red.jpg'
+22.1352 	EXP 	imgBlue: opacity = 1.0
+22.1352 	EXP 	imgBlue: pos = array([ 0., -5.])
+22.1352 	EXP 	imgBlue: size = array([0.6, 0.6])
+22.1352 	EXP 	imgBlue: ori = 1.0
+22.1352 	EXP 	imgBlue: image = 'Blue.jpg'
+22.1352 	EXP 	imgGreen: opacity = 1.0
+22.1352 	EXP 	imgGreen: pos = array([ 1., -5.])
+22.1352 	EXP 	imgGreen: size = array([0.6, 0.6])
+22.1352 	EXP 	imgGreen: ori = 2.0
+22.1352 	EXP 	imgGreen: image = 'Green.jpg'
+22.1352 	EXP 	imgYellow: opacity = 1.0
+22.1352 	EXP 	imgYellow: pos = array([ 2., -5.])
+22.1352 	EXP 	imgYellow: size = array([0.6, 0.6])
+22.1352 	EXP 	imgYellow: ori = 3.0
+22.1352 	EXP 	imgYellow: image = 'Yellow.jpg'
+22.1352 	EXP 	targetTxt: autoDraw = True
+22.1352 	EXP 	imgRed: autoDraw = True
+22.1352 	EXP 	imgBlue: autoDraw = True
+22.1352 	EXP 	imgGreen: autoDraw = True
+22.1352 	EXP 	imgYellow: autoDraw = True
+22.6689 	DATA 	Mouse: Left button down, pos=(1003,367)
+22.7007 	EXP 	targetTxt: autoDraw = False
+22.7007 	EXP 	imgRed: autoDraw = False
+22.7007 	EXP 	imgBlue: autoDraw = False
+22.7007 	EXP 	imgGreen: autoDraw = False
+22.7007 	EXP 	imgYellow: autoDraw = False
+22.7007 	EXP 	feedbackTxt: text = 'Oops! That was wrong!'
+22.7007 	EXP 	feedbackTxt: autoDraw = True
+22.8058 	DATA 	Mouse:  Left button up, pos=(1003,367)
+23.6876 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'قرمز'), ('colour', 'blue'), ('congruent', 0), ('corrAns', 'imgBlue')])
+23.7338 	EXP 	feedbackTxt: autoDraw = False
+23.7338 	EXP 	feedbackTxt: autoDraw = False
+23.7338 	EXP 	targetTxt: color = 'blue (named)'
+23.7338 	EXP 	targetTxt: text = 'قرمز'
+23.7338 	EXP 	imgRed: opacity = 1.0
+23.7338 	EXP 	imgRed: pos = array([-1., -5.])
+23.7338 	EXP 	imgRed: size = array([0.6, 0.6])
+23.7338 	EXP 	imgRed: ori = 0.0
+23.7338 	EXP 	imgRed: image = 'Red.jpg'
+23.7338 	EXP 	imgBlue: opacity = 1.0
+23.7338 	EXP 	imgBlue: pos = array([ 0., -5.])
+23.7338 	EXP 	imgBlue: size = array([0.6, 0.6])
+23.7338 	EXP 	imgBlue: ori = 1.0
+23.7338 	EXP 	imgBlue: image = 'Blue.jpg'
+23.7338 	EXP 	imgGreen: opacity = 1.0
+23.7338 	EXP 	imgGreen: pos = array([ 1., -5.])
+23.7338 	EXP 	imgGreen: size = array([0.6, 0.6])
+23.7338 	EXP 	imgGreen: ori = 2.0
+23.7338 	EXP 	imgGreen: image = 'Green.jpg'
+23.7338 	EXP 	imgYellow: opacity = 1.0
+23.7338 	EXP 	imgYellow: pos = array([ 2., -5.])
+23.7338 	EXP 	imgYellow: size = array([0.6, 0.6])
+23.7338 	EXP 	imgYellow: ori = 3.0
+23.7338 	EXP 	imgYellow: image = 'Yellow.jpg'
+23.7338 	EXP 	targetTxt: autoDraw = True
+23.7338 	EXP 	imgRed: autoDraw = True
+23.7338 	EXP 	imgBlue: autoDraw = True
+23.7338 	EXP 	imgGreen: autoDraw = True
+23.7338 	EXP 	imgYellow: autoDraw = True
+24.6188 	DATA 	Mouse: Left button down, pos=(961,379)
+24.6676 	EXP 	targetTxt: autoDraw = False
+24.6676 	EXP 	imgRed: autoDraw = False
+24.6676 	EXP 	imgBlue: autoDraw = False
+24.6676 	EXP 	imgGreen: autoDraw = False
+24.6676 	EXP 	imgYellow: autoDraw = False
+24.6676 	EXP 	feedbackTxt: text = 'Correct, MousRT=0.904905'
+24.6676 	EXP 	feedbackTxt: autoDraw = True
+24.7389 	DATA 	Mouse:  Left button up, pos=(961,379)
+25.6540 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'سبز'), ('colour', 'yellow'), ('congruent', 0), ('corrAns', 'imgYellow')])
+25.6836 	EXP 	feedbackTxt: autoDraw = False
+25.6836 	EXP 	feedbackTxt: autoDraw = False
+25.6836 	EXP 	targetTxt: color = 'yellow (named)'
+25.6836 	EXP 	targetTxt: text = 'سبز'
+25.6836 	EXP 	imgRed: opacity = 1.0
+25.6836 	EXP 	imgRed: pos = array([-1., -5.])
+25.6836 	EXP 	imgRed: size = array([0.6, 0.6])
+25.6836 	EXP 	imgRed: ori = 0.0
+25.6836 	EXP 	imgRed: image = 'Red.jpg'
+25.6836 	EXP 	imgBlue: opacity = 1.0
+25.6836 	EXP 	imgBlue: pos = array([ 0., -5.])
+25.6836 	EXP 	imgBlue: size = array([0.6, 0.6])
+25.6836 	EXP 	imgBlue: ori = 1.0
+25.6836 	EXP 	imgBlue: image = 'Blue.jpg'
+25.6836 	EXP 	imgGreen: opacity = 1.0
+25.6836 	EXP 	imgGreen: pos = array([ 1., -5.])
+25.6836 	EXP 	imgGreen: size = array([0.6, 0.6])
+25.6836 	EXP 	imgGreen: ori = 2.0
+25.6836 	EXP 	imgGreen: image = 'Green.jpg'
+25.6836 	EXP 	imgYellow: opacity = 1.0
+25.6836 	EXP 	imgYellow: pos = array([ 2., -5.])
+25.6836 	EXP 	imgYellow: size = array([0.6, 0.6])
+25.6836 	EXP 	imgYellow: ori = 3.0
+25.6836 	EXP 	imgYellow: image = 'Yellow.jpg'
+25.6836 	EXP 	targetTxt: autoDraw = True
+25.6836 	EXP 	imgRed: autoDraw = True
+25.6836 	EXP 	imgBlue: autoDraw = True
+25.6836 	EXP 	imgGreen: autoDraw = True
+25.6836 	EXP 	imgYellow: autoDraw = True
+26.4023 	DATA 	Mouse: Left button down, pos=(958,371)
+26.4343 	EXP 	targetTxt: autoDraw = False
+26.4343 	EXP 	imgRed: autoDraw = False
+26.4343 	EXP 	imgBlue: autoDraw = False
+26.4343 	EXP 	imgGreen: autoDraw = False
+26.4343 	EXP 	imgYellow: autoDraw = False
+26.4343 	EXP 	feedbackTxt: text = 'Oops! That was wrong!'
+26.4343 	EXP 	feedbackTxt: autoDraw = True
+26.5548 	DATA 	Mouse:  Left button up, pos=(958,371)
+27.4195 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'آبی'), ('colour', 'blue'), ('congruent', 1), ('corrAns', 'imgBlue')])
+27.4499 	EXP 	feedbackTxt: autoDraw = False
+27.4499 	EXP 	feedbackTxt: autoDraw = False
+27.4499 	EXP 	targetTxt: color = 'blue (named)'
+27.4499 	EXP 	targetTxt: text = 'آبی'
+27.4499 	EXP 	imgRed: opacity = 1.0
+27.4499 	EXP 	imgRed: pos = array([-1., -5.])
+27.4499 	EXP 	imgRed: size = array([0.6, 0.6])
+27.4499 	EXP 	imgRed: ori = 0.0
+27.4499 	EXP 	imgRed: image = 'Red.jpg'
+27.4499 	EXP 	imgBlue: opacity = 1.0
+27.4499 	EXP 	imgBlue: pos = array([ 0., -5.])
+27.4499 	EXP 	imgBlue: size = array([0.6, 0.6])
+27.4499 	EXP 	imgBlue: ori = 1.0
+27.4499 	EXP 	imgBlue: image = 'Blue.jpg'
+27.4499 	EXP 	imgGreen: opacity = 1.0
+27.4499 	EXP 	imgGreen: pos = array([ 1., -5.])
+27.4499 	EXP 	imgGreen: size = array([0.6, 0.6])
+27.4499 	EXP 	imgGreen: ori = 2.0
+27.4499 	EXP 	imgGreen: image = 'Green.jpg'
+27.4499 	EXP 	imgYellow: opacity = 1.0
+27.4499 	EXP 	imgYellow: pos = array([ 2., -5.])
+27.4499 	EXP 	imgYellow: size = array([0.6, 0.6])
+27.4499 	EXP 	imgYellow: ori = 3.0
+27.4499 	EXP 	imgYellow: image = 'Yellow.jpg'
+27.4499 	EXP 	targetTxt: autoDraw = True
+27.4499 	EXP 	imgRed: autoDraw = True
+27.4499 	EXP 	imgBlue: autoDraw = True
+27.4499 	EXP 	imgGreen: autoDraw = True
+27.4499 	EXP 	imgYellow: autoDraw = True
+27.9550 	DATA 	Mouse: Left button down, pos=(932,370)
+27.9841 	EXP 	targetTxt: autoDraw = False
+27.9841 	EXP 	imgRed: autoDraw = False
+27.9841 	EXP 	imgBlue: autoDraw = False
+27.9841 	EXP 	imgGreen: autoDraw = False
+27.9841 	EXP 	imgYellow: autoDraw = False
+27.9841 	EXP 	feedbackTxt: text = 'Oops! That was wrong!'
+27.9841 	EXP 	feedbackTxt: autoDraw = True
+28.1035 	DATA 	Mouse:  Left button up, pos=(932,370)
+28.9863 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'قرمز'), ('colour', 'red'), ('congruent', 1), ('corrAns', 'imgRed')])
+29.0330 	EXP 	feedbackTxt: autoDraw = False
+29.0330 	EXP 	feedbackTxt: autoDraw = False
+29.0330 	EXP 	targetTxt: color = 'red (named)'
+29.0330 	EXP 	targetTxt: text = 'قرمز'
+29.0330 	EXP 	imgRed: opacity = 1.0
+29.0330 	EXP 	imgRed: pos = array([-1., -5.])
+29.0330 	EXP 	imgRed: size = array([0.6, 0.6])
+29.0330 	EXP 	imgRed: ori = 0.0
+29.0330 	EXP 	imgRed: image = 'Red.jpg'
+29.0330 	EXP 	imgBlue: opacity = 1.0
+29.0330 	EXP 	imgBlue: pos = array([ 0., -5.])
+29.0330 	EXP 	imgBlue: size = array([0.6, 0.6])
+29.0330 	EXP 	imgBlue: ori = 1.0
+29.0330 	EXP 	imgBlue: image = 'Blue.jpg'
+29.0330 	EXP 	imgGreen: opacity = 1.0
+29.0330 	EXP 	imgGreen: pos = array([ 1., -5.])
+29.0330 	EXP 	imgGreen: size = array([0.6, 0.6])
+29.0330 	EXP 	imgGreen: ori = 2.0
+29.0330 	EXP 	imgGreen: image = 'Green.jpg'
+29.0330 	EXP 	imgYellow: opacity = 1.0
+29.0330 	EXP 	imgYellow: pos = array([ 2., -5.])
+29.0330 	EXP 	imgYellow: size = array([0.6, 0.6])
+29.0330 	EXP 	imgYellow: ori = 3.0
+29.0330 	EXP 	imgYellow: image = 'Yellow.jpg'
+29.0330 	EXP 	targetTxt: autoDraw = True
+29.0330 	EXP 	imgRed: autoDraw = True
+29.0330 	EXP 	imgBlue: autoDraw = True
+29.0330 	EXP 	imgGreen: autoDraw = True
+29.0330 	EXP 	imgYellow: autoDraw = True
+30.1672 	DATA 	Mouse: Left button down, pos=(931,367)
+30.2162 	EXP 	targetTxt: autoDraw = False
+30.2162 	EXP 	imgRed: autoDraw = False
+30.2162 	EXP 	imgBlue: autoDraw = False
+30.2162 	EXP 	imgGreen: autoDraw = False
+30.2162 	EXP 	imgYellow: autoDraw = False
+30.2162 	EXP 	feedbackTxt: text = 'Correct, MousRT=1.163213'
+30.2162 	EXP 	feedbackTxt: autoDraw = True
+30.3046 	DATA 	Mouse:  Left button up, pos=(931,367)
+31.2022 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'زرد'), ('colour', 'yellow'), ('congruent', 1), ('corrAns', 'imgYellow')])
+31.2498 	EXP 	feedbackTxt: autoDraw = False
+31.2498 	EXP 	feedbackTxt: autoDraw = False
+31.2498 	EXP 	targetTxt: color = 'yellow (named)'
+31.2498 	EXP 	targetTxt: text = 'زرد'
+31.2498 	EXP 	imgRed: opacity = 1.0
+31.2498 	EXP 	imgRed: pos = array([-1., -5.])
+31.2498 	EXP 	imgRed: size = array([0.6, 0.6])
+31.2498 	EXP 	imgRed: ori = 0.0
+31.2498 	EXP 	imgRed: image = 'Red.jpg'
+31.2498 	EXP 	imgBlue: opacity = 1.0
+31.2498 	EXP 	imgBlue: pos = array([ 0., -5.])
+31.2498 	EXP 	imgBlue: size = array([0.6, 0.6])
+31.2498 	EXP 	imgBlue: ori = 1.0
+31.2498 	EXP 	imgBlue: image = 'Blue.jpg'
+31.2498 	EXP 	imgGreen: opacity = 1.0
+31.2498 	EXP 	imgGreen: pos = array([ 1., -5.])
+31.2498 	EXP 	imgGreen: size = array([0.6, 0.6])
+31.2498 	EXP 	imgGreen: ori = 2.0
+31.2498 	EXP 	imgGreen: image = 'Green.jpg'
+31.2498 	EXP 	imgYellow: opacity = 1.0
+31.2498 	EXP 	imgYellow: pos = array([ 2., -5.])
+31.2498 	EXP 	imgYellow: size = array([0.6, 0.6])
+31.2498 	EXP 	imgYellow: ori = 3.0
+31.2498 	EXP 	imgYellow: image = 'Yellow.jpg'
+31.2498 	EXP 	targetTxt: autoDraw = True
+31.2498 	EXP 	imgRed: autoDraw = True
+31.2498 	EXP 	imgBlue: autoDraw = True
+31.2498 	EXP 	imgGreen: autoDraw = True
+31.2498 	EXP 	imgYellow: autoDraw = True
+33.4043 	EXP 	window1: mouseVisible = True

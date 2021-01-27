@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on January 12, 2021, at 20:21
+    on January 12, 2021, at 20:25
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -106,7 +106,7 @@ trialClock = core.Clock()
 targetTxt = visual.TextStim(win=win, name='targetTxt',
     text='default text',
     font='Arial',
-    pos=[0,2], height=0.1, wrapWidth=None, ori=0, 
+    pos=[10,0], height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='Arabic',
     depth=0.0);

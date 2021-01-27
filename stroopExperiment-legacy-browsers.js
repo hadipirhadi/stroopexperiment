@@ -59,13 +59,13 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
+    {'name': 'Start.jpg', 'path': 'Start.jpg'},
     {'name': 'practice.xlsx', 'path': 'practice.xlsx'},
-    {'name': 'conditions.xlsx', 'path': 'conditions.xlsx'},
-    {'name': 'Red.jpg', 'path': 'Red.jpg'},
-    {'name': 'Blue.jpg', 'path': 'Blue.jpg'},
-    {'name': 'Yellow.jpg', 'path': 'Yellow.jpg'},
     {'name': 'Green.jpg', 'path': 'Green.jpg'},
-    {'name': 'Start.jpg', 'path': 'Start.jpg'}
+    {'name': 'Red.jpg', 'path': 'Red.jpg'},
+    {'name': 'conditions.xlsx', 'path': 'conditions.xlsx'},
+    {'name': 'Blue.jpg', 'path': 'Blue.jpg'},
+    {'name': 'Yellow.jpg', 'path': 'Yellow.jpg'}
   ]
 });
 

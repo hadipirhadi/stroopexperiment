@@ -52,11 +52,11 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'conditions.xlsx', 'path': 'conditions.xlsx'},
-    {'name': 'Red.jpg', 'path': 'Red.jpg'},
-    {'name': 'Blue.jpg', 'path': 'Blue.jpg'},
     {'name': 'Yellow.jpg', 'path': 'Yellow.jpg'},
+    {'name': 'Red.jpg', 'path': 'Red.jpg'},
+    {'name': 'conditions.xlsx', 'path': 'conditions.xlsx'},
     {'name': 'Green.jpg', 'path': 'Green.jpg'},
+    {'name': 'Blue.jpg', 'path': 'Blue.jpg'},
     {'name': 'Start.jpg', 'path': 'Start.jpg'}
   ]
 });
@@ -413,17 +413,17 @@ function trialRoutineBegin(snapshot) {
     imgBlue.setOpacity(1);
     imgBlue.setPos([(- 100), (- 150)]);
     imgBlue.setSize([100, 100]);
-    imgBlue.setOri(1);
+    imgBlue.setOri(0);
     imgBlue.setImage('Blue.jpg');
     imgGreen.setOpacity(1);
     imgGreen.setPos([50, (- 150)]);
     imgGreen.setSize([100, 100]);
-    imgGreen.setOri(2);
+    imgGreen.setOri(0);
     imgGreen.setImage('Green.jpg');
     imgYellow.setOpacity(1);
     imgYellow.setPos([200, (- 150)]);
     imgYellow.setSize([100, 100]);
-    imgYellow.setOri(3);
+    imgYellow.setOri(0);
     imgYellow.setImage('Yellow.jpg');
     // setup some python lists for storing info about the mouse
     // current position of the mouse:
